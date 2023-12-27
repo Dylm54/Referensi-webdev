@@ -1,0 +1,279 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.directory-button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.directory-button a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.directory-button a:hover {
+  color: white;
+  opacity: 1;
+}
+
+.component {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.component1 {
+  background: white;
+  height: 45vh;
+  margin-left: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px, rgb(0 0 0 / 12%) 0px 1px 3px;
+  padding-top: 50px;
+  border-radius: 5px;
+}
+
+.component-left {
+  text-align: start;
+}
+
+.component-right {
+  height: 150px;
+  border: 1px solid lightgray;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.component-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-inside img {
+  margin-right: 20px;
+  border: 1px solid lightgray;
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-button {
+  border: 1px solid #0080FF;
+  background: #0080ff;
+  color: white;
+  border-radius: 3px;
+  width: 250px;
+  height: 45px;
+  transition: all 0.2s;
+}
+
+.download-button:hover {
+  background-color: #034AA6;
+  border-color: #034AA6;
+} 
+
+.read-button {
+  border: 1px solid #0080FF;
+  color: #0080ff;
+  background: white;
+  border-radius: 3px;
+  transition: all 0.2s;
+  width: 250px;
+  height: 45px;
+  margin-top: 10px;
+}
+
+.read-button:hover {
+  background-color: #0080ff;
+  color: white;
+}
+
+.button-below {
+  margin-top: 70px;
+}
+
+.citation-button {
+  border: 1px solid #0080FF;
+  color: #0080ff;
+  background: white;
+  border-radius: 3px;
+  transition: all 0.2s;
+  width: 200px;
+  height: 45px;
+  margin-top: 10px;
+}
+
+.citation-button:hover {
+  background-color: #0080ff;
+  color: white;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.list-wrap {
+  background: #dddddd;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 70px;
+}
+
+.component2 {
+  background: white;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px, rgb(0 0 0 / 12%) 0px 1px 3px;
+  border-radius: 5px;
+  width: 45%;
+  height: 45vh;
+}
+
+.component2-title {
+  border-bottom: 1px solid #dddddd;
+}
+
+.component2-title p {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.component2-par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component2-par p {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.paper-display {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin-top: 20px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px, rgb(0 0 0 / 12%) 0px 1px 3px;
+  border-radius: 5px;
+}
+
+.paper-display iframe {
+  padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 18%) 0px 0px 2px, rgb(0 0 0 / 12%) 0px 1px 3px;
+    border-top: 1px solid lightgray;
+}
+
+.display-title {
+  width: 100%;
+  height: 54.5px;
+}
+
+.display-title p{
+  border-right: 1px solid lightgray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 18%) 0px 0px 2px, rgb(0 0 0 / 12%) 0px 1px 3px;
+  width: 200px;
+}
+
+@media (max-width: 1280px) {
+  .list-wrap {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    height: auto;
+    justify-content: start;
+    padding-bottom: 30px;
+  }
+
+  .component {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0;
+  }  
+
+  .component2 {
+    width: 95%;
+    height: auto;
+  }
+
+  .component1 {
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .component-left {
+    padding-left: 15px;
+    margin-bottom: 27px;
+    margin-top: 50px;
+  }
+
+  .button-below {
+    margin-top: 0;
+  }
+
+  .component-right {
+    width: auto;
+    margin-bottom: 50px;
+    display: flex;
+  }
+
+  .component-inside {
+    padding-right: 15px;
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .paper-display {
+    width: 100%;
+    height: auto;
+  }
+
+  .download-button {
+    width: 240px;
+  }
+
+  .read-button {
+    width: 240px;
+  }
+
+}

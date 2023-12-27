@@ -1,0 +1,187 @@
+.list-wrap {
+  height: auto;
+  padding-bottom: 150px;
+  background: #f5f5f5;
+}
+
+.ad-con {
+  display: flex;
+  justify-content: center;
+}
+
+.right-line {
+  border-right: 5px #ccc solid;
+  height:3.5em
+}
+
+.top-line {
+  border-top: 5px #ccc solid;
+}
+
+.halved {
+  width: 50%;
+  float:left;
+}
+
+.card-wrap {
+  color: black;
+  text-decoration: none;
+}
+
+.card-wrap .card {
+  border: 3px solid #ccc
+}
+
+.card-wrap .card:hover {
+  background: #ccc;
+  border: none;
+  color: #01669A !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-wrap .card .profile-pic{
+  width: 30px;
+  height: 30px;
+  top: -15px;
+}
+
+
+.card {
+  min-height: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transition: 0.15s ease-in;
+  color: white;
+}
+
+.person {
+  border: none !important
+}
+
+.profile-pic {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.name-dept {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.position {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: #f5f5f5;
+}
+@media(max-width: 500px) {
+  .card {
+    width: 100px !important;
+    min-width: 80px !important;
+    min-height: 70px;
+    height: 150px !important;
+  }
+
+  .profile-pic {
+    width: 41px;
+    height: 41px;
+    top: -20px;
+  }
+
+  .name {
+    margin-top: 19px;
+    font-size: 12px;
+  }
+
+  .position {
+    margin-top: 1px;
+    font-size: 11px;
+  }
+
+  .card-wrap .card {
+    border: 3px solid #ccc;
+    width: 62px !important;
+    min-width: 5px !important;
+    height: 100px !important;
+  }
+
+  .card-wrap .card .profile-pic {
+    width: 25px;
+    height: 25px;
+    top: -14px;
+  }
+
+  .name-dept {
+    font-size: 9px;
+  }
+
+  .col-4 {
+    width: 28.333333% !important;
+  }
+
+  .left {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-first-comp {
+    justify-content: center;
+  }
+}
+
+@media(max-width: 1000px) {
+  .list-wrap{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-wrap .card {
+    width: 100px !important;
+    height: 150px;
+}
+}

@@ -1,0 +1,40 @@
+.list-wrap {
+  padding-top: 150px;
+  background: #f5f5f5;
+}
+
+.list-container {
+  margin-top: 0;
+}
+
+.date {
+  margin-bottom: 10px;
+}
+
+.shadow {
+  box-shadow: none !important;
+}
+
+.card-body {
+  height: auto;
+  width: 100%;
+  padding-right: 45px !important;
+  padding-left: 45px !important;
+  text-align: center;
+  padding-bottom: 45px !important;
+}
+
+@media (max-width: 1000px) {
+.list-wrap {
+    padding-bottom: 150px;
+}
+  
+  .event {
+    height: auto;
+  }
+
+  .list-wrap {
+    padding-top: 90px;
+  }
+
+}  
